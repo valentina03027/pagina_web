@@ -1,0 +1,82 @@
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard', cursive;
+    background: url('img/fondo6.jpg') no-repeat center/cover;
+}
+
+header {
+    background: #7734db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#encabezado {
+    margin-bottom: 20px;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones-container {
+    display: flex;
+    justify-content: center;
+}
+
+.seccion {
+    background: rgba(236, 240, 241, 0.8); /* Fondo con transparencia */
+    border-radius: 5px;
+    padding: 4px;
+    margin: 6px;
+    text-align: center;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+
+h2 a {
+    color: #7f145d;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: rgba(0, 0, 0, 0); /* Fondo blanco con transparencia */
+    border-radius: 1px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.bienvenida {
+    background: #db1cfc82;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.bienvenida-content {
+    position: relative;
+    z-index: 2; 
+}
+
+.bienvenida-linea {
+    display: flex;
+    min-height: 1px;
+    background: #b819d483;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px;
+}
+
+h2, a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
